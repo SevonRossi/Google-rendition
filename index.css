@@ -1,0 +1,191 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  height: 30px;
+  width: 100%;
+  
+}
+
+li img {
+  width: 23px;
+}
+li {
+  margin-right: 50px;
+}
+
+section img {
+  margin-left: 30%;
+  height: 100%;
+}
+
+section {
+  height: 100%;
+}
+section .input {
+  height: 70px;
+} 
+
+input {
+  width: 50%;
+  margin-left: 28%;
+  margin-top: 15px;
+  border-radius: 20px;
+  border: none;
+  height: 33px;
+   box-shadow: 1px 1px 8px 1px rgba(169, 167, 168, 0.56);
+
+}
+
+p {
+  text-align: center;
+  margin-top: 23%;
+}
+
+
+@media screen and (max-width: 454px) {
+  ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  height: 30px;
+  width: 91%;
+   }
+
+li img {
+  width: 23px;
+}
+li {
+  margin-right: 50px;
+}
+
+.google {
+  height: 100%;
+width: 100%;
+
+}
+  
+  
+  section img {
+    width:60%;
+    margin-top: 30%;
+
+    margin-left: 25%;
+  }
+  
+section .input {
+  height: 70px;
+} 
+
+input {
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 45px;
+  border-radius: 20px; 
+  border:none;
+  height: 33px;
+  box-shadow: 1px 1px 8px 1px rgba(169, 167, 168, 0.56);
+   -webkit-appearance: none;
+}
+  
+  p {
+  text-align: center;
+  margin-top: 58%;
+}
+}
+  
+  @media screen and (max-width: 1002px) and (min-width: 454px)  {
+    
+  ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  height: 30px;
+  width: 91%;
+}
+
+li img {
+  width: 23px;
+}
+    
+li {
+    margin-right: 50px;
+}
+
+section {
+  height: 100%;
+width: 100%;
+}
+  
+  section img {
+    width:60%;
+    margin-top: 10%;
+    margin-left: 160px;
+  }
+  
+section .input {
+  height: 70px;
+} 
+
+input {
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 45px;
+  border-radius: 20px; 
+  border:none;
+  height: 33px;
+  box-shadow: 1px 1px 8px 1px rgba(169, 167, 168, 0.56); 
+   -webkit-appearance: none;
+  
+} 
+    p {
+      margin-left: 51px;
+    }
+  }
+
+@media screen and (min-width: 1002px) {
+    ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  height: 30px;
+  width: 91%;
+   margin-left: 105px;
+}
+  
+    
+  section img {
+    width:60%;
+    margin-top: 5%;
+    margin-left: 25%;
+  }
+  
+  input {
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 45px;
+  border-radius: 20px; 
+  border:none;
+  height: 33px;
+  box-shadow: 1px 1px 8px 1px rgba(169, 167, 168, 1); 
+     -webkit-appearance: none;
+} 
+  
+}
